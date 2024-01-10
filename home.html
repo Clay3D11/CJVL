@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClainerVentura.DevWeb</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://img.freepik.com/premium-vector/impossible-geometry-object-isolated-white-background-science-icon-design_149852-304.jpg?w=826">
+    <!-- Maqruee Style.CSS -->
+    <style>
+        /* * {
+            box-sizing: border-box;
+        } */
+        /* body {
+            --space: 3rem;
+            min-height: 100vh;
+            display: grid;
+            align-content: center;
+            overflow: hidden;
+            gap: var(--space);
+            width: 100%;
+            font-size: 1.5rem;
+            line-height: 1.5;
+        } */
+        
+        .marquee {
+            /* Lo que Estaba En Body {} */
+            --space: 3rem;
+            /* min-height: 100vh; */
+            display: grid;
+            align-content: center;
+            overflow: hidden;
+            gap: var(--space);
+            width: 100%;
+            /* font-size: ; */
+            /* line-height: 1.5; */
+            /* Marca de agua */
+            --duration: 15s;
+            --gap: var(--space);
+            display: flex;
+            overflow: hidden;
+            user-select: none;
+            gap: var(--space);
+        }
+        
+        .marquee-group {
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: var(--gap);
+            min-width: 100%;
+            animation: scroll var(--duration) linear infinite;
+        }
+        
+        @media (prefers-reduced-motion:reduce) {
+            .marquee-group {
+                animation-play-state: paused;
+            }
+        }
+        
+        .marquee-group h4 {
+            aspect-ratio: 1;
+            object-fit: cover;
+            border-radius: 1rem;
+            border: 1px solid #ccc;
+            padding: 3rem;
+            /* BlackBox Suggestions */
+            /* padding: calc(.75*var(--space)); */
+            /* background-color: chocolate; */
+            /* color: white; */
+            /* text-align: center; */
+        }
+        
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(calc(-100% - var(--gap)));
+            }
+        }
+    </style>
+</head>
+
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <ul>
+            <!-- <li>
+                <a href="https://universallimitless.com"><button class="bn">Universal Limitless</button></a>
+            </li> -->
+            <li><a href="#">Home</a></li>
+            <li><a href="https://clay3d11.github.io/AboutMe/">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            
+        </ul>
+    </nav>
+
+    
+    <section class="home" id="home">
+        
+        <!-- <h1>Clainer Ventura</h1> -->
+<br>
+<br>
+<br>
+<br>        
+<br>
+<br>
+       
+
+        <div class="content" id="contenth1">
+            <h1>Clainer Ventura</h1>
+            <br>
+            <h2>Frontend Developer</h2>
+            <p>UI / UX Designer<p>
+            <br>
+        </div>
+
+
+    
+<br>
+<br>
+<br>
+
+
+        <!-- <a href="#projects" class="bn">Explore</a> -->
+        <a href="https://www.linkedin.com/in/clainer-ventura/" class="bn">Link In</a>
+        <a href="https://profile.indeed.com/resume" class="bn">Indeed</a>
+        <!-- <a href="/DevResume.html" class="bn">Resume</a> -->
+        <a href="https://www.fiverr.com/clainer11/design-and-develop-professional-business-websites-for-you" class="bn">Fiverr</a>
+        <a href="https://clay3d11.github.io/AboutMe/" class="bn">Contact</a>
+
+        <!-- <button type="submit"><a href="#contact">Contact</a></button> -->
+
+        <!-- <a href="#contact" target="_blank"><button class="btn">Contact</button></a> -->
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <!-- <a href="#contact"><button class="bn">Contact</button></a> -->
+
+        <!-- <video autoplay loop muted plays-inline class="back-video">
+            <source src="./STG_flash (1).mp4" type="video/mp4">
+        </video> -->
+
+
+        
+
+        
+        <!-- Marquee -->
+        <div class="marquee">
+            
+            <div class="track">
+                <div class="content">&nbsp; VS Code - HTML - CSS - Java Script - Figma - Web Flow - Canvas - Adobe XD - Photoshop Illustrator - SquareSapce - Excel - Google Sheets - UI / UX Design - VS Code - HTML - CSS - Java Script - Figma - Web Flow - Canvas - Adobe XD - Photoshop Illustrator - SquareSapce - Excel - Google Sheets - UI / UX Design -  </div>
+            </div>
+            
+        </div>
+        
+    </section>
+
+
+
+    
+    
+
+
+    <!-- <video autoplay loop muted plays-inline class="back-video">
+        <source src="/img/STG_flash.mp4">
+    </video> -->
+
+
+
+
+</body>
+
+</html>
