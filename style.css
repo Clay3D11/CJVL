@@ -22,6 +22,10 @@
     align-items: center;
     background-color: #333;
     padding: 14px 24px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    
    }
    
    .navbar .logo {
@@ -84,7 +88,7 @@
     /* padding-top: 150px; */
     /* padding-bottom: 200px; */
     text-align: center;
-    background-image: url(/img/IMG/2ndpic1920.jpg);
+    background-image: url(/img/diagoona-bg-2.jpg);
     background-attachment: fixed;
     background-position: center;
 
@@ -520,7 +524,7 @@ span{
         /* padding-top: 150px; */
         /* padding-bottom: 200px; */
         text-align: center;
-        background-image: url(/img/IMG/3rdimg.jpg);
+        background-image: url(/img/diagoona-bg-1.jpg);
         background-attachment: fixed;
         background-position: center;
         box-shadow: 0 0 20px 1px #40c9ff;
@@ -543,10 +547,15 @@ span{
     }
     
     .home h1 {
+        color: #ddd;
         font-size: 47px;
         font-family: 'Times New Roman', Times, serif;
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    .home h2 {
+        color: #ddd;
     }
     
     
