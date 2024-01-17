@@ -89,8 +89,7 @@
     /* padding-bottom: 200px; */
     text-align: center;
     background-image: url(/img/diagoona-bg-2.jpg);
-    background-attachment: fixed;
-    background-position: center;
+    background-size: cover;
 
     box-shadow: 0 0 20px 1px #40c9ff;
      border-radius: 20px;
@@ -162,7 +161,7 @@
      margin: 3rem auto;
      padding: 2.2rem;
      /* background: var(--color5); */
-     box-shadow: 0 0 20px 1px #ee03b3;
+     box-shadow: 0 0 20px 1px #40c9ff;
      border-radius: 20px;
      text-align: center;
      position: relative;
