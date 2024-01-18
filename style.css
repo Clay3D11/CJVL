@@ -4,7 +4,13 @@
     box-sizing: border-box;
    }
    
+main {
+    background-image: url(/img/2ndpic1920.jpg);
+    background-position: center;
+    background-size: cover;
 
+    background-attachment: fixed;
+}
 
 
 
@@ -17,16 +23,25 @@
 
    /* Navbar styling */
    .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 14px 24px;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-    
-   }
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 4px 44px;
+     position: fixed;
+     width: 100%;
+     z-index: 10;
+     background: rgba(255, 255, 255, 0.1);
+     backdrop-filter: blur(10px);
+     box-shadow: 0 0 20px 1px #40c9ff;
+     border-radius: 20px;
+     font-size: 30px;
+     border-radius: 50px;
+     box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     -ms-border-radius: 20px;
+     -o-border-radius: 20px;
+}
    
    .navbar .logo {
     color: #fff;
@@ -88,7 +103,7 @@
     /* padding-top: 150px; */
     /* padding-bottom: 200px; */
     text-align: center;
-    background-image: url(/img/diagoona-bg-2.jpg);
+    background-image: url(/img/PurpleSky.jpg);
     background-size: cover;
 
     box-shadow: 0 0 20px 1px #40c9ff;
@@ -167,7 +182,30 @@
      position: relative;
      overflow: hidden;
      z-index: 1;
- }
+ 
+
+
+     /* Glass Effect Attributes */
+ 
+     /* width: 500px;
+     height: 500px;
+     background: rgba(255, 255, 255, 0.1);
+     backdrop-filter: blur(10px);
+     color: white;
+     font-size: 48px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50px;
+     box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5); */
+ 
+ 
+ 
+ 
+ 
+ 
+    }
+
 
  #portfolio::before{
     content: "";
@@ -189,8 +227,10 @@
     border-radius: 50%;
 }
 
-.name{margin: 0.8rem 0;
+.name{
+margin: 0.8rem 0;
 color: white;
+
 font-family: 'Times New Roman', Times, serif;
 font-size: 50px;
 }
@@ -245,6 +285,7 @@ p{
 }
 
 .contentBox h4{
+    
     text-decoration: underline;
     color: aquamarine;
     font-family: 'Times New Roman', Times, serif;
@@ -540,7 +581,7 @@ span{
     
         position: sticky;
     
-        background-color: rgb(0, 0, 0);
+        /* background-color: rgb(0, 0, 0); */
         background-position: center;
     
     }
@@ -588,14 +629,81 @@ span{
  
  
     .navbar {
-       /* display: flex; */
+        
+    
+         display: flex;
+            
+        justify-content: space-between;
+        align-items: center;
+            
+        padding: 4px 44px;
+        position: fixed;
+            
+        width: 100%;
+        z-index: 10;
+        
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        
+        font-size: 30px;
+        
+        border-radius: 50px;
+        box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
+        
+            
+           
+           .navbar .logo {
+            color: #fff;
+            font-size: 24px;
+           }
+           
+           .navbar .nav-links {
+            display: flex;
+            list-style: none;
+           }
+           
+           .navbar .nav-links li a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 24px;
+            font-size: 18px;
+           }
+           
+           .navbar .nav-links li a:hover {
+            color: #ddd;
+            text-decoration: underline;
+           }
+           
+           /* Burger Icon */
+           .burger-icon {
+            display: none;
+           }
+           
+           .burger-icon span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background-color: #fff;
+            margin: 6px auto;
+           }
+
+    }
+
+
+
+
+
+
+
+        
+       /* display: flex;
        justify-content: center;
-       /* align-items: center; */
+       align-items: center;
        background-color: #000000;
-       /* padding: 14px 24px; */
+       padding: 14px 24px; */
       }
       
-      .navbar .logo {
+      /* .navbar .logo {
        display: none;
       }
       
@@ -616,7 +724,7 @@ span{
        text-decoration: underline;
       }
       
-      /* Burger Icon */
+      
       .burger-icon {
        display: none;
       }
@@ -627,7 +735,7 @@ span{
        height: 2px;
        background-color: #fff;
        margin: 6px auto;
-      }
+      } */
  
  
  
@@ -637,7 +745,7 @@ span{
  
  
  
-  }
+
 
 
   /* @media (max-width: 800px){
