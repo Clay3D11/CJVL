@@ -98,17 +98,20 @@ main {
 /* Hero Section <Home> */
 
 .home {
-    width: 100%;
-    height: 100vh;
-    /* padding-top: 150px; */
-    /* padding-bottom: 200px; */
-    text-align: center;
-    background-image: url(/img/PurpleSky.jpg);
-    background-size: cover;
-
-    box-shadow: 0 0 20px 1px #40c9ff;
-     border-radius: 20px;
- }
+     width: 100%;
+     height: 100vh;
+     /*padding-top: 150px;
+     *//*padding-bottom: 200px;
+     */text-align: center;
+     background-image: url(/img/PurpleSky.jpg);
+     background-size: cover;
+     box-shadow: 0 0 20px 1px #40c9ff;
+     border-radius: 20px ;
+     -webkit-border-radius: 20px ;
+     -moz-border-radius: 20px ;
+     -ms-border-radius: 20px ;
+     -o-border-radius: 20px ;
+}
  
  .content {
     text-align: center;
